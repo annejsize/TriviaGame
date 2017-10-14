@@ -72,7 +72,7 @@ $(document).ready(function() {
 
     if (counter < 3) {
       i = counter;
-alert(counter);
+      // alert(counter);
       var thequestion = $("<h3 class='question-area'>" + question[i].question + "</h3>");
       $(".questions").append(thequestion);
       $(".questions").show();
@@ -108,8 +108,6 @@ alert(counter);
     $(".score1").html("<div><h2>Correct Guesses: " + rightAns + "</h2></div>");
     $(".score2").html("<div><h2>Incorrect Guesses: " + incorrectAns + "</h2></div>");
     $(".score3").html("<div><h2>Unaswered Questions: " + unAns + "</h2></div>");
-
-    // correctAnswerPage(setQuestion, 3000);
   }
 
   function correctAnswerPage() {
@@ -164,9 +162,9 @@ alert(counter);
   });
 
   $(document).on("click", "#restart", function() {
-      counter = 0;
-      setQuestion();
-      $("#restart").hide();
-      timer();
-    });
+    counter = 0;
+    setQuestion();
+    $("#restart").hide();
+    timer();
+  });
 });
