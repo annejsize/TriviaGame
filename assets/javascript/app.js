@@ -72,7 +72,7 @@ $(document).ready(function() {
 
     if (counter < 3) {
       i = counter;
-alert(counter);
+// alert(counter);
       var thequestion = $("<h3 class='question-area'>" + question[i].question + "</h3>");
       $(".questions").append(thequestion);
       $(".questions").show();
