@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Trivia Game</title>
+
+  <!-- Bootstrap File -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- MY CSS Style Sheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato|Shrikhand" rel="stylesheet">
+</head>
+
+<body background="assets/images/symphony.png">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>It's the Def Deaf Trivia Game!</h1>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title general-title"></h2>
+      </div>
+      <div class="panel-body">
+        <div>
+            <h2 id="timer-caption">Click on the "START" button below. You have 28 seconds to answer each question! </h2>
+            <h3 class="timer"></h3>
+        </div>
+
+        <div>
+            <p class="score1"></p>
+            <p class="score2"></p>
+            <p class="score3"></p>
+        <div>
+      </div>
+    </div>
+<!-- //Insert row here
+//Insert 6 columns here for the left panel -->
+    <div class="panel panel-default">
+      <div class="panel-body questions score">
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-body buttons">
+          <div>
+            <button class="btn btn-default btn-block" id="start">START</button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- //Insert 6 columns here for the right panel -->
+  </div>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>

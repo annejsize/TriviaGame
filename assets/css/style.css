@@ -1,0 +1,24 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+    color: #417fa3;
+  text-align: center;
+}
+
+.btn-default {
+  background-color: #417fa3;
+  color: #ffffff;
+
+}
+
+.img {
+  width: 100px;
+  length: auto;
+}
